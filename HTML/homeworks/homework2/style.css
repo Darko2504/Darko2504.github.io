@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    background-color: #C19A6B;
+}
+header {
+    text-align: center;
+    background-color: grey;
+}
+body{
+    text-align: center;
+}
+h2 ,h3 ,h4{
+    background-color: bisque;
+}
+footer{
+    text-align: center;
+    background-color:darkgoldenrod;
+}
