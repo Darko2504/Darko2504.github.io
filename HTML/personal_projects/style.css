@@ -1,0 +1,17 @@
+header{
+    text-align: center;
+    background-color: teal;
+}
+body{
+    align-items: right
+    ;
+}
+img {
+float: inherit;
+}
+footer{
+    text-align: center;
+    background-color: beige;
+    
+}
+

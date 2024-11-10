@@ -1,0 +1,22 @@
+header {
+    text-align: center;
+    background-color: teal;
+}
+body {
+    text-align: left;
+    background-color: red;
+    color: beige;
+}
+img {
+    float: none;
+}
+h2{
+    text-align: center;
+    background-color: beige;
+}
+h3{
+    text-align: left;
+    background-color: beige;
+    color: black;
+    font-size: 35px;
+}
