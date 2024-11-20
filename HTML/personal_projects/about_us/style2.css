@@ -1,10 +1,10 @@
 header {
     text-align: center;
-    background-color: teal;
+    background-color: #6B8E23;
 }
 body {
     text-align: left;
-    background-color: red;
+    background-color:#C70039;
     color: beige;
 }
 img {
@@ -19,4 +19,8 @@ h3{
     background-color: beige;
     color: black;
     font-size: 35px;
+}
+body{
+    font-style: italic;
+    font-size: 25px;
 }
