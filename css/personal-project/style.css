@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  background-color: #854836;
+  text-decoration: solid;
+  border: 5px solid black;
+  text-align: center;
+  font-size: 3.5rem;
+}
+main {
+  display: flex;
+  width: 100vw;
+}
+nav {
+  background-color: #f5b553;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+nav a:hover {
+  color: red;
+  transition: 2s;
+}
+aside a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  width: 7vw;
+  height: 10vh;
+  background-color: black;
+  color: white;
+}
+.glavno {
+  background-color: #dfd3c3;
+  width: 79vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+article {
+  display: flex;
+  width: 340px;
+  height: 500px;
+  flex-direction: column;
+  margin: 30px;
+
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 40px;
+}
+article img {
+  height: 300px;
+  width: 300px;
+}
+.boxes {
+  background-color: grey;
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid black;
+  margin: 10px;
+}
+aside img {
+  width: 100%;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.divche {
+  background-color: #f5b553;
+  height: 300px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border: 5px solid black;
+  border-radius: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.child {
+  position: relative;
+  bottom: 20px;
+}
+.vtoro-divche {
+  background-color: #f5b553;
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border: 5px solid black;
+  border-radius: 100px;
+}
+.aside-reklami {
+  float: right;
+  text-align: center;
+  max-width: 12vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.back-to-top{
+  padding: 10px;
+  background-color: white;
+  text-decoration: none;
+  position: absolute;
+  left: 1400px;
+  color: black;
+  
+}
+.back-to-top:hover{
+  background-color: red;
+  transition: 1s;
+}
+
