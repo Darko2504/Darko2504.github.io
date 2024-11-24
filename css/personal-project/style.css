@@ -122,4 +122,41 @@ aside img {
   background-color: red;
   transition: 1s;
 }
+.more-article{
+  display: flex;
+  width: 340px;
+  height: 450px;
+  flex-direction: column;
+  margin: 30px;
 
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 40px;
+}
+.more-wrapped{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.more-aside{
+  width: 20%;
+  height: 1000%;
+  background-color: black;
+  float: right;
+}
+.strana{
+  height: 350vh;
+  
+  float: right;
+  text-align: center;
+  
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 22%;
+  background-color: black;
+  
+  
+}
