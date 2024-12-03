@@ -180,7 +180,7 @@ main{
 }
 .java-homework-header{
   background: rgb(34, 193, 195);
-  background: linear-gradient(
+  background: linear-gradient
     0deg,
     rgba(34, 193, 195, 1) 0%,
     rgba(146, 190, 119, 0.4206932773109243) 6%,
@@ -190,7 +190,7 @@ main{
     rgba(139, 191, 123, 1) 48%,
     rgba(181, 189, 95, 1) 67%,
     rgba(194, 189, 86, 1) 73%,
-    rgba(253, 187, 45, 1) 100%;)
+    rgba(253, 187, 45, 1) 100%;
 }
 
 .background-image2{
