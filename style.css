@@ -204,7 +204,7 @@ main{
   margin: 20px;
   border: 10px solid black;
   border-radius: 40px;
-  position: absolute; left: 500px;
+  position: relative; left: 500px;
 }
 .text{
 text-align: center;
