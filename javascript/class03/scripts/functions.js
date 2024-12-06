@@ -17,13 +17,12 @@ sayHello();
 // }
 // sayGoodBye();
 
-
 // function addTwoNumbers(){
 //     let firstNum = 22;
 //     let secondNum = 324;
 //     let result = firstNum + secondNum;
 //     console.log(result);
-    
+
 // }
 // addTwoNumbers();
 
@@ -37,36 +36,50 @@ sayHello();
 // // sumTwoNumbers();
 
 // //===============FUNCTIONS WITH ARGUMENTS============
- 
+
 //document write pisuva vo ekran direkt
-function sayMyFullName(firstName, lastName){
-    document.write(`${firstName} ${lastName}`)
+function sayMyFullName(firstName, lastName) {
+  document.write(`${firstName} ${lastName}`);
 }
 
 sayMyFullName(`Darko`, `Milanovski`);
 sayMyFullName(`Elena`, `Cvetkovska`);
 
-
-
 //========FUNCTIONS THAT RETURN VALUES=======
 
-function returnValue(value){
+function returnValue(value) {
   return value;
 }
 
-
-
 console.log(returnValue("This will be returned"));
 
-
-function greetSomeone(personName){
-  let greeting = `Hello there ${personName}`
+function greetSomeone(personName) {
+  let greeting = `Hello there ${personName}`;
   return greeting;
 }
 
-
-console.log( greetSomeone(`Slave`));
-console.log( greetSomeone(`Slave`));
-console.log( greetSomeone(`Slave`));
+console.log(greetSomeone(`Slave`));
+console.log(greetSomeone(`Slave`));
+console.log(greetSomeone(`Slave`));
 let greetMessage = greetSomeone(`Angel`);
 console.log(greetMessage);
+
+//===== parameter mismatch ====
+
+function sayMyNameAndYears(firstName = Darko, lastName = Milanovski, years = 20) {
+  console.log(`${firstName} ${lastName} is ${years} years old`);
+}
+
+sayMyNameAndYears(`Angel`, `Ivanovski`, `32` );
+
+
+function myCustomeAlert(message){
+  alert(message);
+}
+myCustomeAlert("Hello there!");
+ // number prima string a go vraka kako brojka
+let myNum = Number("22")
+// string prima brojka ama vraka kako brojka
+let myString = String(22);
+
+
