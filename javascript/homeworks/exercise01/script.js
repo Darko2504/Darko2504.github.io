@@ -19,3 +19,6 @@ function celToFar(farenhite){
  else {
     alert("Please enter a valid number")
  }
+
+
+ 
