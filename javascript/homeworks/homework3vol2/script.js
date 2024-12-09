@@ -4,7 +4,7 @@ function dogYears(humanYears) {
   return sum;
 }
 
-let humanAge = prompt("Enter your age:");
+let humanAge = parseInt(prompt("Enter your age:"));
 
 if (!isNaN(humanAge)) {
   let dogAge = dogYears(humanAge);

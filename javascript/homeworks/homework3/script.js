@@ -1,27 +1,15 @@
-function type(){
-    return type;
+function type(variable){
+    return typeof(variable);
 }
+console.log(type({}));
+console.log(type("Darko"));
+console.log(type(undefined));
+console.log(type(true));
+console.log(type(1222));
 
 
-//boolean
-type(true);
-console.log(typeof(true));
 
-//string
-type("DARKO")
-console.log(typeof("DARKO"));
 
-//number
-type(2024)
-console.log(typeof(2024));
-
-//undefined
-type(undefined)
-console.log(typeof(undefined));
-
-//object
-type({})
-console.log(typeof({}));
 
 
 
