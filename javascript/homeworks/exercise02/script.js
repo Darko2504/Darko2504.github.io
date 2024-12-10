@@ -1,10 +1,14 @@
-let toDateYear = 2024;
+let toDateYear = new Date(). getFullYear();
 
 function calculateAge(birthYear, currentYear){
+    
     let sum = currentYear - birthYear ;
     return sum;
 }
 
+let userInput = prompt("Did your bithrday pass? \n Enter Y or N")
+
+if (userInput === "Y")
 console.log(`You are ${calculateAge(2001, 2025)} years old`);
 console.log(`You are ${calculateAge(1924, toDateYear)} years old`);
 

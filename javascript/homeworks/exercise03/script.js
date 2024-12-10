@@ -12,7 +12,8 @@ function withdrawMoney(amountDenars){
         return "You dont have enough money in your account"
         
     }
-    else if ((balanceDenars -= amountDenars)){
+    else if ((amountDenars < balanceDenars)){
+        balanceDenars -= amountDenars;
         return  ` You have withdrawn ${amountDenars} denars. You have ${balanceDenars} denars more left in your account`
 }}
 
