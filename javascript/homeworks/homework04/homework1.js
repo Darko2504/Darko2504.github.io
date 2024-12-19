@@ -1,10 +1,27 @@
 //FIRST HOMEWORK
 console.log("=====FIRST HOMEWORK======");
 
-function tellStory(name, mood, activity) {
-  return `This is ${name}. ${name} is a nice person. Today he is in a ${mood} mood. They are ${activity} all day. The end`;
+function tellStory(name, mood, activity, gender) {
+  return `This is ${name}. ${name} is a nice person. Today ${gender} is in a ${mood} mood. ${gender} is ${activity} all day. The end`;
 }
-console.log(tellStory("Darko", "good", "learning"));
+let input = prompt("Enter the person you want to talk to. Darko, Martin, Frosina or Ivan")
+if(input === "Darko"){
+console.log(tellStory("Darko", "good", "learning", "he"));}
+else if(input === "Martin"){
+  console.log(tellStory("Martin", "excellent", "coding", "he"));
+  
+}
+else if(input === "Frosina"){
+  console.log(tellStory("Frosina", "spectacular", "checking homeworks", "she"));
+  
+}
+else if(input === "Ivan"){
+  console.log(tellStory("Ivan", "not in a good", "resting", "he"));
+  
+}
+else{
+  alert("Please enter a valid name");
+}
 
 //SECOND HOMEWORK
 console.log("======SECOND HOMEWORK=======");
@@ -14,6 +31,7 @@ function sumOfNumbers(numbers) {
   for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i];
   }
+  
   return sum;
 }
 console.log(sumOfNumbers(numbers));

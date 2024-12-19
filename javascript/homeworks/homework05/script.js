@@ -92,10 +92,10 @@ function Book(title, author, readingStatus){
     this.readingStatus = readingStatus;
     this.checkBook = function(){
         
-        if(readingStatus == firstBook.readingStatus){
+        if(readingStatus == true){
             console.log(`You have already read ${firstBook.title} by ${firstBook.author}`);
             
-        }else if(readingStatus == secondBook.readingStatus){
+        }else if(readingStatus == false){
             console.log(`You still need to read ${secondBook.title} by ${secondBook.author}`);
             
         }
